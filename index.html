@@ -15,6 +15,32 @@
         <img src="./images/pipe.png" class="pipe">
         <img src="./images/mario.gif" class="mario">
         <img src="./images/clouds.png" class="clouds">
+        <img class="game-over">
+        <input
+            type="image"
+            onClick="window.location.reload();"
+            class="replay"
+            src=""
+            value=''
+         >
+         <input
+            type="image"
+            class="start"
+            src="./images/start.png"
+            value=''
+         >
+         <audio 
+            id="jump-audio" controls style="display:none">
+            <source src="./sounds/jump-sound.mp3" type="audio/mpeg">
+          </audio>
+
+          <audio id="mario-song" controls style="display:none" autoplay>
+            <source src="./sounds/mario-song.mp3" type="audio/mpeg">
+          </audio>
+
+          <audio id="game-over-audio" controls style="display:none">
+            <source src="./sounds/game-over.mp3" type="audio/mpeg">
+          </audio>
     </div>
 
 </body>

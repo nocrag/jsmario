@@ -18,6 +18,9 @@
     position: absolute;
     bottom: 0;
     width: 80px;
+}
+
+.animation-pipe {
     animation: pipe-animation 2s infinite linear;
 }
 
@@ -36,6 +39,27 @@
     width: 550px;
     animation: clouds-animation 25s infinite linear;
 }
+
+.game-over {
+    position: absolute;
+    width: 500px;
+    margin-left: 400px;
+}
+
+.start{
+    position: absolute;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 180px
+}
+
+.replay {
+    position: absolute;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 350px
+}
+
 
 @keyframes pipe-animation {
     from {
